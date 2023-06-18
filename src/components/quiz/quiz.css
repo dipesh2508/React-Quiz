@@ -14,14 +14,7 @@
     position: relative;
 
   }
-  .heading-txt{
-    color:white;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 10px;
-    text-align: center;  
-    text-transform: uppercase;
-  }
+  
   .question{
     margin:8px;
     box-shadow: 0px 0px 10px 1px #a2a3a3;

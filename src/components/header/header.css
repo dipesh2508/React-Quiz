@@ -28,6 +28,7 @@ header .overlay {
 h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 80px;
+	margin-top: 12px;
 	margin-bottom: 30px;
 }
 
