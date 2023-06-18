@@ -45,6 +45,8 @@
     margin:6px 4px;    
     width: 100%;
     padding: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
   }
   /* .option-container input{
     visibility: hidden;    
@@ -56,25 +58,28 @@
     border:none;
     outline: none;
     transition: 0.3s;
-    margin: 5px;
+    margin: 10px;
     min-height: 30px;
     background-color: white;
+    width: 20rem;
+
+  }
+  .option-btn:hover{
+    background-color:  #D95E9A;
+    color:white;
   }
   
   .checked{
-    background-color: rgb(179, 83, 179);
+    background-color:#F6794D;
     color:white;
     box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
   }
-  .option-btn:hover{
-    background-color: rgb(212, 118, 212);
-    color:white;
-  }
+
   #next-button{
     padding:10px;
     border:none;
     background-color: purple;
-    background-color: #276272;
+    background-color: #0088ae;
     color:white;
     border-radius: 5px;
     box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
