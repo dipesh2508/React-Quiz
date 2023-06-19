@@ -6,9 +6,9 @@ import Result from '../result/Result'
 
 
 const Quiz = () => {
-    const [currentQuestion, setCurrentQuestion] = useState(0)
-    const [score, setScore] = useState(0)
-    const [selected, setSelected] = useState(0)
+    const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [score, setScore] = useState(0);
+    const [selected, setSelected] = useState(0);
     const [showResult, setShowResult] = useState(0);
 
     const changeQuestion = () => {
@@ -45,13 +45,13 @@ const Quiz = () => {
                 </span>
             </div>
             <div className="option-container">
-                {QuizData[currentQuestion].options.map((options, i) => {
+                {QuizData[currentQuestion].options.map((option, i) => {
                     return (
                         <button className={`option-btn ${selected === i + 1 ? 'checked' : null}`}
                             key={i}
                             onClick={() => setSelected(i + 1)}
                         >
-                            {options}
+                            {option}
                         </button>
                     )
                 })}
