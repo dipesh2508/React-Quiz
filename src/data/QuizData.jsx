@@ -23,5 +23,50 @@ export const QuizData = [
         question: 'In the Pokemon games, which type is super effective against both Grass and Electric types?',
         options: ['Fire', 'Bug', 'Ground', 'Ice'],
         answer: 3
+    },
+    {
+        question: 'What is the name of the Pokemon that can learn every move in the game?',
+        options: ['Mewtwo', 'Ditto', 'Smeargle', 'Arceus'],
+        answer: 3
+    },
+    {
+        question: 'Which Pokemon has the highest base Special Attack stat?',
+        options: ['Mewtwo', 'Alakazam', 'Gengar', 'Espeon'],
+        answer: 1
+    },
+    {
+        question: 'Which Pokemon type is immune to poison-type moves?',
+        options: ['fire', 'steel', 'dark', 'water'],
+        answer: 2
+    },
+    {
+        question: 'Garchomp is known for its exceptional speed and power. What is its base Speed stat?',
+        options: [90, 100, 110, 120],
+        answer: 3
+    },
+    {
+        question: 'What is the signature move of Typhlosion?',
+        option: ['Blast burn', 'Overheat', 'Fire blast', 'Flamethrower'],
+        answer: 1
+    },
+    {
+        question: ' In the Pokémon anime series, which Pokémon does Gary Oak evolve his Eevee into?',
+        option: ['Espeon', 'Leafeon', 'Vapereon', 'Umbreon'],
+        answer: 4
+    },
+    {
+        question: 'What is the signature Pokémon of Steven, the Champion of the Hoenn region?',
+        option: ['Aggron', 'Metagross', 'Skarmory', 'Claydol'],
+        answer:2
+    },
+    {
+        question: 'What does STAB mean?',
+        option: ['Same Type Attack Boost', 'Special Technique Amplification Bonus', 'Same Type Attack Bonus', 'Super Effective Attack Boost'],
+        answer: 3
+    },
+    {
+        question: "What was ash's first shiny pokemon",
+        option: ['Noctowl', 'Litten', 'Poipole', 'Butterfree'],
+        answer: 1
     }
 ];
