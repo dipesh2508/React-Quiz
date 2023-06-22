@@ -38,10 +38,19 @@ const Quiz = () => {
         }
     }
 
+    const resetAll = () =>{
+        setShowResult(0);
+        setCurrentQuestion(0);
+        setSelected(0);
+        setGenreContainer(false);
+        setCurrentGenre(0);
+        setScore(0);
+    }
+
     return (
         <div className='container'>
             {showResult ? (
-                <Result score={score} totalScore={QuizData[0].data[currentGenre].length} />
+                <Result score={score} totalScore={QuizData[0].data[currentGenre].length} reset={resetAll} />
             ) : (
                 <>
                     {genreContainer ? (
