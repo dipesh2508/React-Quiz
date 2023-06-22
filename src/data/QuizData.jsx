@@ -1,5 +1,5 @@
 export const QuizData = [{
-    options: ['Pokemon', 'Kids Anime/Cartoon (Nostalgia)', 'Anime'],
+    options: ['Pokemon', 'Kids Anime/Cartoon (Nostalgia)', 'Anime', 'Marvel/DC'],
     data: [
         [{
             question: 'Which Pokemon has the ability "Levitate," making it immune to Ground-type moves?',
@@ -172,6 +172,58 @@ export const QuizData = [{
                 question: "What is Gilgamesh's primary motivation and desire?",
                 options: ['to conquer the world', 'to find his lost love', 'to destroy mankind', 'to attain immortality'],
                 answer: 4
+            }
+        ],
+        [
+            {
+                question: 'In the "Spider-Man: Homecoming" film, which actor plays the character of the Vulture?',
+                options: ['Samuel L. Jackson', 'Michael Keaton', 'Jake Gyllenhaal', 'William Dafoe'],
+                answer: 2
+            },
+            {
+                question: "Who was the first Robin? (Batman)",
+                options: ['Jason Todd', 'Tim Drake', 'Dick Grayson', 'Damian Wayne'],
+                answer: 3
+            },
+            {
+                question: 'What is the name of the newspaper where Clark Kent works as a reporter? (Superman)',
+                options: ['Daily Planet', 'Daily Bugle', 'Daily Globe', 'Daily Star'],
+                answer: 1
+            },
+            {
+                question: "what is the name of Doctor Strange's loyal disciple and love interest, who eventually becomes a powerful sorceress herself?",
+                options: ['Jessica jones', 'Wanda Maximoff', 'Clea', 'Jane foster'],
+                answer: 3
+            },
+            {
+                question: 'What is the name of the all-female special forces unit in Wakanda, led by Okoye? (Black Panther)',
+                options: ['Jabari Tribe', 'Dora Milaje', 'War Dogs', 'Hunter womens'],
+                answer: 2
+            },
+            {
+                question: "According to the Flash Comics, which speedster becomes the fastest after Barry Allen's Death?",
+                options: ['Wally West', 'Nora West Allen', 'Eobard Thawne', 'Godspeed'],
+                answer:1
+            },
+            {
+                question: "What is Deadpool's primary mutant power?",
+                options: ['Teleportation', 'Telepathy','Super strength','Regenerative healing factor'],
+                answer: 4
+            },
+            {
+                question: 'Which character is known as the King of Dreams? (The Sandman, DC)',
+                options: ['Lucifer',' Constantine', 'Morpheus', 'Destiny'],
+                answer: 3
+            },
+            {
+                question: "Which terrorist organization kidnaps Tony Stark and demands that he builds them a powerful weapon? (Iron Man)",
+                options: ['A.I.M. (Advanced Idea Mechanics)', 'Ten Rings', 'HYDRA', 'The Hand'],
+                answer: 2
+            },
+            {
+                question: 'Who is the main antagonist in the "Secret Wars" storyline? ',
+                options: ['Doctor Doom', 'Thanos', 'Kang', 'Magneto'],
+                answer: 1
             }
         ]
     ]
