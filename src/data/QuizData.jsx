@@ -89,7 +89,7 @@ export const QuizData = [{
         },
         {
             question: "What is the name of Ben's first alien transformation in the original series?",
-            options: ['Wildmutt', 'Swampfire', 'Cannonbolt', 'Diamond Head'],
+            options: ['Heatblast', 'Swampfire', 'Wildmutt', 'Diamond Head'],
             answer: 1
         },
         {
